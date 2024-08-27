@@ -37,7 +37,7 @@ void ReservationsManager::listReservations() const {
             << ", Fecha: " << reservation.getSchedule().getDay()
             << ", Hora: " << reservation.getSchedule().getStartTime()
             << " - " << reservation.getSchedule().getEndTime()
-            << ", Número de reserva: " << reservation.getBookingNumber()
+            << ", Numero de reserva: " << reservation.getBookingNumber()
             << '\n';
     }
 }
