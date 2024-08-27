@@ -138,7 +138,7 @@ int ReservationsManager::getRoomIndex() const {
     }
 
     int choice;
-    std::cout << "Seleccione el número de la sala: ";
+    std::cout << "Seleccione el numero de la sala: ";
     std::cin >> choice;
     if (choice < 1 || choice > static_cast<int>(count)) {
         std::cout << "Seleccion no valida.\n";
