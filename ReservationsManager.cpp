@@ -168,7 +168,7 @@ void ReservationsManager::getReservationInput(Reservation& reservation) const {
     std::string day, startTime, endTime;
     int bookingNumber;
 
-    std::cout << "Ingrese el día de la reserva (Formato: YYYY-MM-DD): ";
+    std::cout << "Ingrese el dia de la reserva (Formato: YYYY-MM-DD): ";
     std::cin.ignore();
     std::getline(std::cin, day);
 
