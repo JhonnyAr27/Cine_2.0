@@ -77,7 +77,7 @@ void SalesManager::manageSales() {
         case 3: updateSale(); break;
         case 4: deleteSale(); break;
         case 5: std::cout << "Volviendo al menu principal...\n"; break;
-        default: std::cout << "Opción invalida. Intente de nuevo.\n";
+        default: std::cout << "Opcion invalida. Intente de nuevo.\n";
         }
     }
 }
