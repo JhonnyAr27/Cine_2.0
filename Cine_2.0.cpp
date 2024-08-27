@@ -80,6 +80,6 @@ int main() {
 
 void showAbout() {
     cout << "\n===== Acerca de =====\n";
-    cout << "Este sistema fue desarrollado por Jhonny Aguirre.\n";
+    cout << "Este sistema fue desarrollado por Jhonny Aguirre Rodriguez.\n";
 }
 
