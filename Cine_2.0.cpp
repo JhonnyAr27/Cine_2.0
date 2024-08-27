@@ -11,6 +11,7 @@ using namespace std;
 void showAbout();
 
 int main() {
+    
     int mainChoice = 0;
     MovieManager movieManager;
     RoomManager roomManager;
@@ -79,6 +80,6 @@ int main() {
 
 void showAbout() {
     cout << "\n===== Acerca de =====\n";
-    cout << "Este sistema fue desarrollado por Johhny Aguirre.\n";
+    cout << "Este sistema fue desarrollado por Jhonny Aguirre.\n";
 }
 
