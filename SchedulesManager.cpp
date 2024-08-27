@@ -100,7 +100,7 @@ void SchedulesManager::manageSchedules() {
         case 3: updateSchedule(); break;
         case 4: deleteSchedule(); break;
         case 5: std::cout << "Volviendo al menu principal...\n"; break;
-        default: std::cout << "Opción invalida. Intente de nuevo.\n";
+        default: std::cout << "Opcion invalida. Intente de nuevo.\n";
         }
     }
 }
