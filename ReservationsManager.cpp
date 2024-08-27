@@ -110,7 +110,7 @@ int ReservationsManager::getMovieIndex() const {
     }
 
     int choice;
-    std::cout << "Seleccione el numero de la película: ";
+    std::cout << "Seleccione el numero de la pelicula: ";
     std::cin >> choice;
     if (choice < 1 || choice > static_cast<int>(count)) {
         std::cout << "Seleccion no válida.\n";
