@@ -99,7 +99,7 @@ int ReservationsManager::getMovieIndex() const {
     size_t count = movieController.getMovieCount();
 
     if (count == 0) {
-        std::cout << "No hay películas disponibles.\n";
+        std::cout << "No hay peliculas disponibles.\n";
         return -1;
     }
 
