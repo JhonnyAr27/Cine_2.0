@@ -68,7 +68,7 @@ void SalesManager::manageSales() {
         std::cout << "3. Actualizar Venta\n";
         std::cout << "4. Eliminar Venta\n";
         std::cout << "5. Volver\n";
-        std::cout << "Seleccione una opción: ";
+        std::cout << "Seleccione una opcion: ";
         std::cin >> choice;
 
         switch (choice) {
