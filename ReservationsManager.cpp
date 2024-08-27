@@ -178,7 +178,7 @@ void ReservationsManager::getReservationInput(Reservation& reservation) const {
     std::cout << "Ingrese la hora de fin (HH:MM): ";
     std::getline(std::cin, endTime);
 
-    std::cout << "Ingrese el número de reserva: ";
+    std::cout << "Ingrese el numero de reserva: ";
     std::cin >> bookingNumber;
 
     Schedule schedule(day, startTime, endTime);
