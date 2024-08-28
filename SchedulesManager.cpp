@@ -118,7 +118,7 @@ void SchedulesManager::getInput(std::string& day, std::string& startTime, std::s
 }
 
 void SchedulesManager::getScheduleIndex(int& index) {
-    std::cout << "Ingrese el numero del horario que desea: ";
+    std::cout << "Ingresar el numero del horario que desea: ";
     std::cin >> index;
     --index; // Ajustar para índice basado en 0
 }
