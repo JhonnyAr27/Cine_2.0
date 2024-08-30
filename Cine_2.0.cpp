@@ -54,7 +54,7 @@ int main() {
                 cout << "1. Peliculas\n";
                 cout << "2. Salas\n";
                 cout << "3. Horarios\n";
-                cout << "4. Volver\n";
+                cout << "4. Regresar\n";
                 cout << "Seleccione una opcion: ";
                 cin >> mantenimientoChoice;
 
